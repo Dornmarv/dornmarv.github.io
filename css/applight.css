@@ -2,6 +2,10 @@ body {
   font-family: "Karla", sans-serif;
   background-color: #f2f0e9;
 }
+
+:root {
+  --animate-duration: 5s;
+}
 .logo {
   content: url("../images/logo1.svg");
 }
