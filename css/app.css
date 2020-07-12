@@ -1,0 +1,192 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #0a0b0e;
+}
+
+.logo {
+  content: url("../images/logo.svg");
+}
+.twitter {
+  content: url("../images/twitter.svg");
+}
+.linkedin {
+  content: url("../images/linkedin.svg");
+}
+.whatsapp {
+  content: url("../images/whatsapp.svg");
+}
+.instagram {
+  content: url("../images/instagram.svg");
+}
+.container-set {
+  width: 80% !important;
+}
+.contact-btn {
+  border: 2px solid #f2f0e9 !important;
+  background-color: #0a0b0e !important;
+  color: #f2f0e9 !important;
+  text-transform: capitalize;
+  height: 42px;
+}
+
+.second-name {
+  margin-left: 285px;
+}
+
+.section-banner {
+  padding-top: 140px !important;
+}
+.section-projects {
+  margin-top: 80px;
+}
+.section-banner h5 {
+  color: #f2f0e9;
+  font-weight: bold;
+  font-size: 60px;
+}
+.section-projects h5 {
+  color: #f2f0e9;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-skills h5 {
+  color: #f2f0e9;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.section-get-in-touch {
+  margin-top: 100px;
+}
+.section-get-in-touch h5 {
+  color: #a5a4a1;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.section-banner p {
+  color: #a5a4a1;
+  font-size: 20px;
+}
+.section-skills p {
+  color: #a5a4a1;
+  font-size: 20px;
+  text-align: center;
+}
+.section-skills li {
+  color: #a5a4a1;
+  font-size: 20px;
+}
+
+.section-projects p {
+  color: #a5a4a1;
+  font-size: 20px;
+}
+
+.section-projects .title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+span.important {
+  font-weight: bold;
+  color: #f2f0e9;
+}
+
+.headshot {
+  border-radius: 10px;
+}
+
+.headshot-div {
+  margin-bottom: 70px;
+}
+
+.social-link {
+  width: 20px;
+  margin-right: 42px;
+}
+
+.collapsible-header {
+  background-color: #0a0b0e !important;
+  color: #a5a4a1;
+}
+
+.collapsible-body {
+  color: #a5a4a1;
+}
+
+.colortoggle {
+  background-color: #282628 !important;
+}
+.icontoggle {
+  color: #f2f0e9 !important;
+}
+
+.fa-sun:before {
+  content: \f185 !important;
+}
+
+.visit {
+  color: #a5a4a1 !important;
+}
+
+@media screen and (max-width: 540px) {
+  .second-name {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .social-link {
+    margin-right: 15px;
+  }
+
+  .headshot-div {
+    margin-bottom: 36px;
+  }
+
+  .section-banner h5 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .firstcol {
+    margin-bottom: 20px;
+    margin-top: -50px;
+  }
+
+  .firstline {
+    padding-top: 40px;
+  }
+
+  .section-get-in-touch h5 {
+    font-size: 20px;
+  }
+
+  .section-projects {
+    margin-top: 40px;
+  }
+
+  .section-get-in-touch {
+    margin-top: 50px;
+  }
+
+  .section-skills {
+    margin-top: -28px;
+  }
+  .project {
+    padding-bottom: 30px;
+  }
+}
