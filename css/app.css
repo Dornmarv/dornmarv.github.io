@@ -7,6 +7,10 @@ body {
   --animate-duration: 5s;
 }
 
+.project {
+  margin-top: 80px;
+}
+
 .logo {
   content: url("../images/logo.svg");
 }
