@@ -21,6 +21,9 @@ body {
 .instagram {
   content: url("../images/instagram1.svg");
 }
+.github {
+  content: url("../images/github-icon.svg");
+}
 .container-set {
   width: 80% !important;
 }
