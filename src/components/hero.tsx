@@ -55,7 +55,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
               </span>
-              Senior Frontend Engineer (6+ Years)
+              Senior FullStack Engineer (7+ Years)
             </div>
           </motion.div>
           {/* Main Headline */}
@@ -64,17 +64,17 @@ export default function Hero() {
               Marvellous Posu
             </h1>
             <h2 className="text-xl md:text-3xl text-slate-400 font-light max-w-2xl mx-auto">
-              Building scalable{" "}
-              <span className="text-cyan-400 font-normal">Fintech</span> &{" "}
-              <span className="text-purple-400 font-normal">Web3</span>{" "}
-              infrastructure.
+              Building {" "}
+              <span className="text-cyan-400 font-normal">scalable</span> &{" "}
+              <span className="text-purple-400 font-normal">user-centric</span>{" "}
+              products.
             </h2>
           </motion.div>
           {/* Bio / Value Prop */}
           <motion.div variants={itemVariants}>
             <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-              Frontend specialist architecting high-performance applications.
-              Expertise in React, Next.js, and TypeScript. Previously secured
+              Full Stack Engineer, Frontend specialist architecting high-performance applications.
+              Expertise in React, Next.js, Node.js, and TypeScript. Previously secured
               $2.5M+ TVL and scaled platforms for 5,000+ active users.
             </p>
           </motion.div>
@@ -84,10 +84,10 @@ export default function Hero() {
             className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-3xl mt-8"
           >
             {[
-              { label: "TVL Secured", value: "$2.5M+" },
-              { label: "Wallets Integrated", value: "150+" },
-              { label: "Active Users", value: "5,000+" },
-              { label: "Performance & SEO", value: "90+" },
+              { label: "Years", value: "7+" },
+              { label: "Projects", value: "50+" },
+              { label: "Tvl secured", value: "$2.5M+" },
+              { label: "Users Impacted", value: "50k+" },
             ].map((stat, index) => (
               <div
                 key={index}
@@ -103,7 +103,7 @@ export default function Hero() {
             ))}
           </motion.div>
           {/* Action Buttons */}
-          
+
           <motion.div
             variants={itemVariants}
             className="flex flex-wrap items-center justify-center gap-4 pt-4"
