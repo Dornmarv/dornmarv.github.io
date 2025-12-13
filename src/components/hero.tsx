@@ -49,7 +49,7 @@ export default function Hero() {
           className="flex flex-col items-center text-center space-y-8"
         >
           {/* Top Badge: Experience */}
-          <motion.div variants={itemVariants}>
+          <motion.div variants={itemVariants} className="mt-8 md:mt-0">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-800 bg-slate-900/50 backdrop-blur-sm text-xs font-medium text-cyan-400">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
