@@ -73,9 +73,11 @@ export default function Hero() {
           {/* Bio / Value Prop */}
           <motion.div variants={itemVariants}>
             <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-              Full Stack Engineer, Frontend specialist architecting high-performance applications.
-              Expertise in React, Next.js, Node.js, and TypeScript. Previously secured
-              $2.5M+ TVL and scaled platforms for 5,000+ active users.
+              Full stack engineer building payments infrastructure, AI products and
+              on-chain systems. TypeScript, NestJS, React and Rust. I currently own
+              10+ microservices behind an AI career platform, and I have secured
+              $2.5M+ in TVL and moved real money across Stripe, Flutterwave and
+              Paystack.
             </p>
           </motion.div>
           {/* Metrics Grid (Social Proof from Resume) */}
@@ -84,10 +86,10 @@ export default function Hero() {
             className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-3xl mt-8"
           >
             {[
-              { label: "Years", value: "7+" },
-              { label: "Projects", value: "50+" },
-              { label: "Tvl secured", value: "$2.5M+" },
-              { label: "Users Impacted", value: "50k+" },
+              { label: "Years Experience", value: "7+" },
+              { label: "TVL Secured", value: "$2.5M+" },
+              { label: "Platform Users", value: "13.9K" },
+              { label: "Apps Automated", value: "11K+" },
             ].map((stat, index) => (
               <div
                 key={index}
@@ -117,7 +119,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Marvellous-Posu-FE-Resume.pdf"
+              href="/Marvellous-Posu-Resume.pdf"
               download
               className="inline-flex h-12 items-center justify-center rounded-md border border-slate-800 bg-slate-950 px-8 font-medium text-slate-300 transition-all hover:bg-slate-900 hover:text-white"
             >
@@ -145,7 +147,7 @@ export default function Hero() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="https://x.com/in/0xDonMarv"
+              href="https://x.com/0xDonMarv"
               target="_blank"
               className="hover:text-cyan-400 transition-colors"
             >

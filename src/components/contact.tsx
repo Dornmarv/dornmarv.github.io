@@ -95,7 +95,7 @@ export default function Contact() {
           {[
             { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com/in/marvellous-posu", color: "hover:text-blue-400", handle: "/marvellous-posu" },
             { name: "GitHub", icon: Github, url: "https://github.com/dornmarv", color: "hover:text-white", handle: "/dornmarv" },
-            { name: "Resume", icon: ArrowUpRight, url: "/Marvellous-Posu-FE-Resume.pdf", color: "hover:text-cyan-400", handle: "View Resume" },
+            { name: "Resume", icon: ArrowUpRight, url: "/Marvellous-Posu-Resume.pdf", color: "hover:text-cyan-400", handle: "View Resume" },
           ].map((social) => (
             <a
               key={social.name}

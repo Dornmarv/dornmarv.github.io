@@ -11,14 +11,20 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
-// Placeholder data for your side projects. Update these with your real projects.
+// Full class strings so Tailwind's static scanner emits them.
+const ACCENT: Record<string, string> = {
+  cyan: "text-cyan-400",
+  purple: "text-purple-400",
+  pink: "text-pink-400",
+};
+
 const sideProjects = [
   {
     id: 1,
-    title: "Solana Escrow dAPP",
+    title: "Solana Escrow dApp",
     description:
-      "EscrowDAPP is a secure peer-to-peer escrow service built on Solana that enables trustless SOL transfers between two parties. Users can create escrow accounts where funds are locked until the designated recipient claims them, or the depositor cancels the transaction",
-    tech: ["Next.js", "Tailwind", "Rust", "Anchor", "Web3js"],
+      "A trustless peer-to-peer escrow service on Solana. Funds are locked on-chain until the designated recipient claims them or the depositor cancels, so neither side has to trust the other.",
+    tech: ["Rust", "Anchor", "Next.js", "Web3.js", "Tailwind"],
     icon: Globe,
     githubUrl: "https://github.com/Dornmarv/program-Dornmarv.git",
     liveUrl: "https://escrow-dapp-jade.vercel.app/",
@@ -26,23 +32,23 @@ const sideProjects = [
   },
   {
     id: 2,
-    title: "Serverless Performance Benchmark",
+    title: "JobHunter — Aggregator & Auto-Apply Engine",
     description:
-      "A lightweight utility that benchmarks the latency and cold-start times of various serverless providers (Vercel, AWS Lambda).",
-    tech: ["Node.js", "TypeScript", "AWS Lambda", "CI/CD"],
+      "A job aggregator and auto-apply engine that unifies listings from Google Jobs, LinkedIn, Indeed and company career pages into one dashboard, then drives real browsers through ATS platforms to fill applications from a stored profile.",
+    tech: ["React", "Node.js", "Express", "Playwright"],
     icon: Zap,
-    githubUrl: "#",
+    githubUrl: "https://github.com/dornmarv",
     liveUrl: "#",
     color: "cyan",
   },
   {
     id: 3,
-    title: "Custom Component Library (dorn-ui)",
+    title: "dorn-ui — Component Library",
     description:
-      "A private library of custom, accessible React components built from scratch, focusing on Framer Motion animations.",
-    tech: ["React.js", "Framer Motion", "Storybook", "A11y"],
+      "A library of accessible React components built from scratch, with Framer Motion animations and Storybook documentation.",
+    tech: ["React", "Framer Motion", "Storybook", "A11y"],
     icon: Code,
-    githubUrl: "#",
+    githubUrl: "https://github.com/dornmarv",
     liveUrl: "#",
     color: "pink",
   },
@@ -98,7 +104,7 @@ export default function Projects() {
               <div>
                 {/* Project Icon */}
                 <project.icon
-                  className={`h-8 w-8 text-${project.color}-400 mb-4`}
+                  className={`h-8 w-8 ${ACCENT[project.color]} mb-4`}
                 />
 
                 {/* Title and Description */}

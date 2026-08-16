@@ -46,8 +46,8 @@ export default function Skills() {
             Technical Arsenal
           </h2>
           <p className="text-slate-400 max-w-2xl">
-            I don't just use frameworks; I build scalable architectures. 
-            Specializing in the React ecosystem, Web3 integration, and performance optimization.
+            I don't just use frameworks; I build scalable architectures.
+            Backend services and payment rails, on-chain systems, and the interfaces on top of them.
           </p>
         </motion.div>
 
@@ -68,12 +68,12 @@ export default function Skills() {
             <div className="h-10 w-10 rounded-full bg-cyan-500/10 flex items-center justify-center mb-4 group-hover:bg-cyan-500/20 transition-colors">
               <Code2 className="text-cyan-400 h-6 w-6" />
             </div>
-            <h3 className="text-xl font-semibold text-white mb-2">Core Frontend</h3>
+            <h3 className="text-xl font-semibold text-white mb-2">Core Stack</h3>
             <p className="text-sm text-slate-400 mb-6">
-              My primary stack for building complex, interactive applications.
+              What I reach for daily, across the whole stack.
             </p>
             <div className="flex flex-wrap gap-2">
-              {["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3"].map((tag) => (
+              {["TypeScript", "JavaScript (ES6+)", "React", "Next.js", "Node.js", "NestJS", "Express"].map((tag) => (
                 <span key={tag} className="px-2 py-1 text-xs rounded-md bg-slate-800 text-cyan-100 border border-slate-700">
                   {tag}
                 </span>
@@ -94,13 +94,13 @@ export default function Skills() {
                 <div className="h-10 w-10 rounded-full bg-purple-500/10 flex items-center justify-center">
                   <Database className="text-purple-400 h-6 w-6" />
                 </div>
-                <h3 className="text-xl font-semibold text-white">Web3 & Fintech</h3>
+                <h3 className="text-xl font-semibold text-white">Web3 & Blockchain</h3>
               </div>
               <p className="text-sm text-slate-400 mb-4 max-w-md">
-                Experience integrating wallets, handling on-chain transactions, and building P2P marketplaces.
+                Four years on-chain. I write contracts as well as the apps that talk to them, including the escrow contract behind a $2.5M+ TVL marketplace.
               </p>
               <div className="flex flex-wrap gap-2">
-                {["Wagmi", "Viem", "Ethers.js", "Web3.js", "Smart Contract Integration", "Dynamic", "Privy"].map((tag) => (
+                {["Solidity", "Rust", "Anchor", "Hardhat", "Truffle", "Viem", "Wagmi", "Ethers.js", "Web3.js"].map((tag) => (
                   <span key={tag} className="px-2 py-1 text-xs rounded-md bg-purple-900/30 text-purple-200 border border-purple-800/50">
                     {tag}
                   </span>
@@ -116,10 +116,10 @@ export default function Skills() {
           >
             <div className="flex items-center gap-3 mb-3">
               <Layout className="text-pink-400 h-5 w-5" />
-              <h3 className="text-lg font-semibold text-white">UI Engineering</h3>
+              <h3 className="text-lg font-semibold text-white">Backend & Data</h3>
             </div>
             <div className="flex flex-wrap gap-2 mt-4">
-              {["Tailwind CSS", "Framer Motion", "Material UI", "Chakra UI", "Responsive Design"].map((tag) => (
+              {["PostgreSQL", "MongoDB", "Redis", "Kafka", "BullMQ", "GraphQL", "WebSockets", "Microservices"].map((tag) => (
                 <span key={tag} className="px-2 py-1 text-xs rounded-md bg-pink-900/20 text-pink-200 border border-pink-800/30">
                   {tag}
                 </span>
@@ -134,10 +134,10 @@ export default function Skills() {
           >
             <div className="flex items-center gap-3 mb-3">
               <Cpu className="text-emerald-400 h-5 w-5" />
-              <h3 className="text-lg font-semibold text-white">State & Data</h3>
+              <h3 className="text-lg font-semibold text-white">AI & Automation</h3>
             </div>
             <div className="flex flex-wrap gap-2 mt-4">
-              {["Redux Toolkit", "Zustand", "React Query", "Context API", "GraphQL", "Websockets"].map((tag) => (
+              {["OpenAI (incl. Realtime)", "Anthropic Claude", "LangChain", "LLM agents", "Playwright", "Puppeteer"].map((tag) => (
                 <span key={tag} className="px-2 py-1 text-xs rounded-md bg-emerald-900/20 text-emerald-200 border border-emerald-800/30">
                   {tag}
                 </span>
@@ -153,14 +153,14 @@ export default function Skills() {
             <div className="flex-1">
                <div className="flex items-center gap-3 mb-2">
                 <ShieldCheck className="text-orange-400 h-5 w-5" />
-                <h3 className="text-lg font-semibold text-white">Reliability & Perf</h3>
+                <h3 className="text-lg font-semibold text-white">Payments & Correctness</h3>
               </div>
               <p className="text-sm text-slate-400">
-                Ensuring code quality via robust testing and optimizing for Core Web Vitals.
+                Code that moves real money. Integer-cent balances, idempotency keys on every mutating endpoint, transactional outbox and an append-only audit log.
               </p>
             </div>
             <div className="flex flex-wrap gap-2 justify-start md:justify-end flex-1">
-               {["Jest", "Cypress", "RTL", "CI/CD", "GitHub Actions", "Docker", "SEO Optimization"].map((tag) => (
+               {["Stripe", "Stripe Connect", "Flutterwave", "Paystack", "PayPal", "Idempotency", "Audit ledgers", "Jest", "CI/CD"].map((tag) => (
                 <span key={tag} className="px-2 py-1 text-xs rounded-md bg-slate-800 text-slate-300 border border-slate-700">
                   {tag}
                 </span>
@@ -175,10 +175,10 @@ export default function Skills() {
           >
             <div className="flex items-center gap-3 mb-3">
               <Terminal className="text-blue-400 h-5 w-5" />
-              <h3 className="text-lg font-semibold text-white">Tools</h3>
+              <h3 className="text-lg font-semibold text-white">UI & DevOps</h3>
             </div>
              <div className="flex flex-wrap gap-2 mt-4">
-              {["Git", "Vercel", "Netlify", "Vite", "Webpack"].map((tag) => (
+              {["Tailwind CSS", "Framer Motion", "Electron", "Docker", "GitHub Actions", "DigitalOcean", "Sentry"].map((tag) => (
                 <span key={tag} className="px-2 py-1 text-xs rounded-md bg-blue-900/20 text-blue-200 border border-blue-800/30">
                   {tag}
                 </span>
